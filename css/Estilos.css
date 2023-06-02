@@ -73,6 +73,7 @@ img{
 }
 img:hover{
     width: 600px;
+    border:dotted #1F0908;
 }
 .imagen{
     text-align: center;
