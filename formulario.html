@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="css/Estilos.css">
 </head>
 <body>
-    <h1>Registrate para saber mas</h1>
+    <h1 id="titulo">Registrate para saber mas</h1>
     <form action="js/ejemplo.js" method="post"></form>
         <fieldset>
             <legend class="texto">Datos</legend>
                 <label for="Nombre">Nombre</label>
                     <input type="text" size="40" title="ingresa tu nombre" name="Nombre" id="Nombre" placeholder="Amanda" min="6" max="25" required>
         
+                <br>
                 <label for="Apellido">Apellido</label>
                     <input type="text" name="Apellido" id="Apellido" placeholder="Huerta" required>
-        
+                 <br>
                 <label for="correo">Correo</label>
                     <input type="email" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
-       
+                <br>
                  <label for="telefono">Telefono</label>
                     <input type="tel" name="telefono" id="telefono" maxlength="10">    
         </fieldset>
@@ -28,7 +29,7 @@
             <legend class="texto">Usuario</legend>
                  <label for="Usuario">Nombre Usuario</label>   
                     <input type="text" size="40" title="ingresa tu nombre" name="Usuario" id="Usuario" placeholder="Amandiuxy1234" required minlength="18">
-        
+                <br>
                 <label for="password">Contraseña</label>
                     <input type="password" name="password" id="password" minlength="18" required>
         </fieldset>

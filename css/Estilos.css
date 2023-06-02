@@ -107,3 +107,9 @@ iframe{
     list-style-image: url(/iconos/sakura.png);
     
 }
+table, tr, td{
+    border: 2px solid #081F10;
+}
+form{
+    text-align: center;
+}
