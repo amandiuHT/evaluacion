@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/Estilos.css">
 </head>
 <body>
+    <h1>Registrate para saber mas</h1>
     <form action="js/ejemplo.js" method="post"></form>
-    <fieldset>
-        <legend class="text">Usuario</legend>
-        <p class="texto">
-            Nombre
-            <input type="text" size="40" title="ingresa tu nombre" name="Nombre" id="Nombre" placeholder="Amanda" required>
-        </p>
-        <p class="texto">
-            Apellido
-            <input type="text" name="Apellido" id="Apellido" placeholder="Huerta" required>
-        </p>
-        <p class="texto">
-            Correo
-            <input type="email" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
-        </p>
-    </fieldset>
+        <fieldset>
+            <legend class="texto">Datos</legend>
+                <label for="Nombre">Nombre</label>
+                    <input type="text" size="40" title="ingresa tu nombre" name="Nombre" id="Nombre" placeholder="Amanda" min="6" max="25" required>
+        
+                <label for="Apellido">Apellido</label>
+                    <input type="text" name="Apellido" id="Apellido" placeholder="Huerta" required>
+        
+                <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
+       
+                 <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" maxlength="10">    
+        </fieldset>
+        <fieldset>
+            <legend class="texto">Usuario</legend>
+                 <label for="Usuario">Nombre Usuario</label>   
+                    <input type="text" size="40" title="ingresa tu nombre" name="Usuario" id="Usuario" placeholder="Amandiuxy1234" required minlength="18">
+        
+                <label for="password">Contraseña</label>
+                    <input type="password" name="password" id="password" minlength="18" required>
+        </fieldset>
+    </form>
+    <input type="submit" value="Enviar" >
+    <input type="reset" value="Reiniciar">
+
+
 </body>
 </html>
