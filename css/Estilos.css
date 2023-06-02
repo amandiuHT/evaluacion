@@ -45,8 +45,10 @@ h2:hover{
 }
 .encabezadom{
     color: #1F0908;
+    text-align: center;
     font-size: 18px;
-    font-family:fantasy
+    font-family:fantasy;
+    
    
 }
 a:hover{
@@ -83,8 +85,10 @@ video{
 .videos{
     text-align: center;
 }
+
 ul{
-    color: aliceblue;
+    color: black;
+    ;
 }
 .red{
     width: 24px;
@@ -96,4 +100,9 @@ iframe{
     text-align: center;
     padding: 60px;
     margin: 20px;
+}
+#listas{
+    list-style-type: none;
+    list-style-image: url(/iconos/sakura.png);
+    
 }
