@@ -1,0 +1,86 @@
+body{
+    background-color: burlywood;
+}
+header{
+    background-color:#276b3f9a;
+    color:#6B0A06;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    text-align: center;
+    padding: 5px;
+    background-color: #081F10;
+ 
+}
+nav > button{
+    background-color: darkslategray;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+button > a{
+    color: aliceblue;
+}
+h3:hover{
+   color: #081F10; 
+}
+h2:hover{
+    color: #1F0908;
+}
+.Encabezado{
+    color: #b8231d;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #60A392;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.encabezadom{
+    color: #1F0908;
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+a:hover{
+    color: #6B0A06;
+}
+p{
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    padding: 40px;
+}
+footer{
+    background-color: #276B3F;
+    margin: 5px;
+    padding: 20px;
+}
+img{
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+}
+.imagen{
+    text-align: center;
+}
+video{
+    width: 400px;
+    text-align: center;
+    display: block;
+}
+.videos{
+    text-align: center;
+}
+ul{
+    color: aliceblue;
+}
+.red{
+    width: 24px;
+}
