@@ -69,6 +69,9 @@ img{
     margin: 30px;
     text-align: center;
 }
+img:hover{
+    width: 600px;
+}
 .imagen{
     text-align: center;
 }
