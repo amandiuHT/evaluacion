@@ -7,7 +7,7 @@ header{
     text-align: center;
     font-size: 30px;
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fantasy;
 }
 header > p{
     text-align: center;
@@ -47,8 +47,7 @@ h2:hover{
     color: #1F0908;
     font-size: 18px;
     font-family:fantasy
-    padding: 20px;
-    margin: 5px;
+   
 }
 a:hover{
     color: #6B0A06;
